@@ -41,15 +41,15 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "Abhishek Verma"
+      volunteer: "Abhishek Verma"
       layout: post
       image: /img/home.jpg
       show_sidebar: true
   - scope:
       path: ""
-      type: "authors"
+      type: "volunteers"
     values:
-      layout: "author"
+      layout: "volunteer"
 
 collections:
   volunteers:
