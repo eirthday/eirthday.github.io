@@ -1,0 +1,56 @@
+# Site Settings
+title: EirthDay
+tagline: this is tagline
+email: twinkleprsnl7@gmail.com
+description: >
+  Lets celebrate plantation as emotion. follow it as ritual and share it as love.
+baseurl: "/"
+url: "https://eirthday.github.io"
+permalink: pretty
+force_theme: light
+
+paginate: 6
+paginate_path: "/page:num"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown
+  - rouge
+
+exclude:
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+livereload: true
+
+sass:
+  style: compressed
+  source_dir: _sass
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "Abhishek Verma"
+      layout: post
+      image: /img/home.jpg
+      show_sidebar: true
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+
+collections:
+  authors:
+    output: true
