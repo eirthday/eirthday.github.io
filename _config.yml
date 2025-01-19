@@ -44,7 +44,7 @@ defaults:
       volunteer: "Abhishek Verma"
       layout: post
       image: /img/home.jpg
-      mobileImage: /img/home_portrait_3.jpg
+      mobileImage: /img/home_portrait_2.jpg
       show_sidebar: true
   - scope:
       path: ""
