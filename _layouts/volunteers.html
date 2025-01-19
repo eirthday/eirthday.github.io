@@ -1,0 +1,12 @@
+---
+layout: default
+image: /img/home.jpg'
+---
+
+<div class="content">{{ content }}</div>
+
+<div class="columns is-multiline">
+  {% for volunteer in site.volunteers %}
+  <div class="column is-12">{% include volunteer-media.html %}</div>
+  {% endfor %}
+</div>

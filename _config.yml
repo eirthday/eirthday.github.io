@@ -52,5 +52,5 @@ defaults:
       layout: "author"
 
 collections:
-  authors:
+  volunteers:
     output: true
