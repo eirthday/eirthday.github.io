@@ -1,10 +1,18 @@
+<style>
+  @media (max-width: 768px) {
+    /* Adjust breakpoint as needed */
+    .hero {
+      background-image: url("{{ page.mobileImage | relative_url }}"); /* Mobile background image */
+    }
+  }
+</style>
 <section
   class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %} is-bold is-dark"
   {%
   if
   page.image
   %}
-  style="background: url('{{ page.image | relative_url }}') no-repeat center center; background-size: cover;"
+  style="background: url('{{ page.image | relative_url }} ') no-repeat center center; background-size: cover; "
   {%
   endif
   %}
