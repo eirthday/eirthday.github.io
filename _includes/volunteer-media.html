@@ -2,24 +2,27 @@
   <div class="card-content">
     <div class="media">
       <figure class="media-left">
-        <a href="{{ author.url | relative_url }}" class="avatar-link">
+        <a href="{{ volunteer.url | relative_url }}" class="avatar-link">
           <p class="image is-64x64">
-            {% if author.avatar %}
-              <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}">
+            {% if volunteer.avatar %}
+            <img
+              src="{{ volunteer.avatar | relative_url }}"
+              alt="{{ volunteer.name }}"
+            />
             {% else %}
-              <i class="fas fa-user fa-4x"></i>
+            <i class="fas fa-user fa-4x"></i>
             {% endif %}
           </p>
         </a>
       </figure>
       <div class="media-content">
-        <a href="{{ author.url | relative_url }}" class="is-block">
-          <p class="title is-5">{{ author.name }}</p>
+        <a href="{{ volunteer.url | relative_url }}" class="is-block">
+          <p class="title is-5">{{ volunteer.name }}</p>
         </a>
 
-        <p class="subtitle is-5">{{ author.position }}</p>
+        <p class="subtitle is-5">{{ volunteer.position }}</p>
         <div class="content">
-          <p>{{ author.description }}</p>
+          <p>{{ volunteer.description }}</p>
         </div>
       </div>
     </div>
