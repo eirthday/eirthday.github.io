@@ -11,7 +11,7 @@ twitter: https://www.twitter.com/
 github: https://www.github.com/
 gitlab: https://www.gitlab.com
 instagram: https://www.instagram.com
-linkedin: https://www.linkedin.com/in/
+linkedin: https://www.linkedin.com/in/twinkle-verma-3b5742213/
 medium: https://www.medium.com/
 stack_overflow: https://stackoverflow.com/
 ---
